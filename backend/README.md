@@ -5,8 +5,13 @@ Para instalar todos los modulos y dependencias necesarias:
 ```
 npm install
 ```
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 Para correr el aplicativo en nodemon 
 ```
 npm run dev
+```
+### Run tests
+Para correr las pruebas login.test.js
+```
+npm run test
 ```
