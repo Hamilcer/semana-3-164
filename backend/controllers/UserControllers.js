@@ -20,8 +20,8 @@ exports.singin = async(req,res,next)=>{
                 res.status(200).send({
                     auth: true,
                     accessToken: token,
-                    name: user.username,
-                    email: user.email
+                    user: user
+                    
                 })
 
             }else {           
